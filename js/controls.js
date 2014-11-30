@@ -292,14 +292,4 @@ else {
 		return k + "=" + v + "\n";
 	}
 
-	mic.connect("UBYUD4AJGNWOWURYNFECWVA3DOQJXDHT");
-	// mic.start();
-	// mic.stop();
-
-	function kv (k, v) {
-		if (toString.call(v) !== "[object String]") {
-			v = JSON.stringify(v);
-		}
-		return k + "=" + v + "\n";
-	}
 }
